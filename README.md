@@ -3,6 +3,24 @@ Instructions on how to setup coding assistants (GitHub Copilot, Cursor and more)
 
 Having powerful AI coding assistants at your disposal can significantly boost your productivity and creativity. This comprehensive guide will walk you through setting up two popular AI coding tools - GitHub Copilot and Cursor - using their free tiers. By the end of this guide, you'll be ready to leverage these tools to enhance your coding experience in school or personal projects, or during a hackathon.
 
+## Table of Contents
+- [GitHub Copilot on VS Code (Free Tier)](#github-copilot-on-vs-code-free-tier)
+  - [Setup Visual Studio Code](#setup-visual-studio-code-vs-code)
+  - [Enable Copilot Free in VS Code](#enable-copilot-free-in-vs-code)
+  - [Configuring System Prompts](#configuring-system-prompts)
+    - [Setting Up System Prompts in GitHub Copilot](#setting-up-system-prompts-in-github-copilot)
+- [Setting Up Cursor (Free Account)](#setting-up-cursor-free-account)
+  - [Installation Process for Windows](#installation-process-for-windows)
+  - [Installation Process for macOS](#installation-process-for-macos)
+  - [Installation Process for Linux (Ubuntu)](#installation-process-for-linux-ubuntu)
+  - [Setting Up Instructions (Rules) for Cursor](#setting-up-instructions-rules-for-cursor)
+- [Copilot vs Cursor, a comparison](#copilot-vs-cursor-a-comparison)
+- [Potential Conflicts between GitHub Copilot and Cursor](#potential-conflicts-between-github-copilot-and-cursor)
+- [Conclusion](#conclusion)
+- [Appendix: Alternative AI Coding Assistants](#appendix-alternative-ai-coding-assistants)
+  - [Official Products](#official-products)
+  - [Alternative Options for Self-Hosted AI Coding Assistants](#alternative-options-for-self-hosted-ai-coding-assistants)
+
 ## GitHub Copilot on VS Code (Free Tier)
 
 ### Setup Visual Studio Code (VS Code)
