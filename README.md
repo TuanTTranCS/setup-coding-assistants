@@ -32,7 +32,7 @@ Follow this guide from Microsoft to set up VS Code for your platform: [Click Her
 
 Follow this guide from Microsoft to set up GitHub Copilot on VS Code: [Click Here](https://code.visualstudio.com/docs/copilot/setup-simplified).
 
-For someone preferring a video tutorial, here's a YouTube video: [Click Here](https://youtu.be/thUxtOe0SQM?si=kdgY0Xn4RRzgKcaJ).
+For someone preferring a video tutorial, here's a YouTube video: [![Video Tutorial](https://img.youtube.com/vi/thUxtOe0SQM/0.jpg)](https://youtu.be/thUxtOe0SQM?si=kdgY0Xn4RRzgKcaJ).
 
 ### Configuring System Prompts
 
@@ -224,10 +224,11 @@ Alternatively, Cursor is moving towards a new Project Rules system:
 It's worth noting that the `.cursorrules` file method is being phased out, so it's recommended to transition to the new Project Rules system for better flexibility and control.
 
 Both global and project-specific rules allow you to customize Cursor AI's behavior, including coding style preferences, best practices, and project-specific requirements. This customization helps ensure more accurate and consistent code generation tailored to your needs.
+- Read more: [Click here](https://cursor101.com/article/cursor-rules-customizing-ai-behavior)
+- And more: [Click here](https://github.com/PatrickJS/awesome-cursorrules)
+- Tips on development with Cursors (Helpful for Front-End & Fullstack): [![Tips Video](https://img.youtube.com/vi/uJimjSDio_Y/0.jpg)](https://youtu.be/uJimjSDio_Y?si=HNDydaG6Mk5OkDPW)
 
-[Read more](https://cursor101.com/article/cursor-rules-customizing-ai-behavior)
-
-## Copilot vs Cursor, a comparison
+## Copilot vs Cursor - A Comparison
 Reference: [Copilot vs Cursor](https://www.builder.io/blog/cursor-vs-github-copilot)
 
 ## Potential Conflicts between GitHub Copilot and Cursor
