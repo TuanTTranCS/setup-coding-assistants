@@ -228,8 +228,12 @@ Both global and project-specific rules allow you to customize Cursor AI's behavi
 - And more: [Click here](https://github.com/PatrickJS/awesome-cursorrules)
 - Tips on development with Cursors (Helpful for Front-End & Fullstack): [![Tips Video](https://img.youtube.com/vi/uJimjSDio_Y/0.jpg)](https://youtu.be/uJimjSDio_Y?si=HNDydaG6Mk5OkDPW)
 
+## Prompting Guide
+- Read: [Click here](https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/prompt-engineering-for-copilot-chat)
+- Learn: [Click here](https://learn.microsoft.com/en-us/training/modules/introduction-prompt-engineering-with-github-copilot/)
+
 ## Copilot vs Cursor - A Comparison
-Reference: [Copilot vs Cursor (Feb 2025)](https://cosminnovac.medium.com/cursor-ai-vs-github-copilot-which-one-wins-45ba5828741f)
+- Reference: [Copilot vs Cursor (Feb 2025)](https://cosminnovac.medium.com/cursor-ai-vs-github-copilot-which-one-wins-45ba5828741f)
 
 ## Potential Conflicts between GitHub Copilot and Cursor
 While GitHub Copilot and Cursor are both powerful AI coding assistants, there might be potential conflicts between them. [Read more](https://www.perplexity.ai/search/some-potential-conflicts-when-ssryqVDgRuSTIqwEz2VhJA).
