@@ -14,7 +14,7 @@ Having powerful AI coding assistants at your disposal can significantly boost yo
   - [Installation Process for macOS](#installation-process-for-macos)
   - [Installation Process for Linux (Ubuntu)](#installation-process-for-linux-ubuntu)
   - [Setting Up Instructions (Rules) for Cursor](#setting-up-instructions-rules-for-cursor)
-- [Copilot vs Cursor, a comparison](#copilot-vs-cursor-a-comparison)
+- [Copilot vs Cursor - A comparison](#copilot-vs-cursor-a-comparison)
 - [Potential Conflicts between GitHub Copilot and Cursor](#potential-conflicts-between-github-copilot-and-cursor)
 - [Conclusion](#conclusion)
 - [Appendix: Alternative AI Coding Assistants](#appendix-alternative-ai-coding-assistants)
@@ -229,7 +229,7 @@ Both global and project-specific rules allow you to customize Cursor AI's behavi
 - Tips on development with Cursors (Helpful for Front-End & Fullstack): [![Tips Video](https://img.youtube.com/vi/uJimjSDio_Y/0.jpg)](https://youtu.be/uJimjSDio_Y?si=HNDydaG6Mk5OkDPW)
 
 ## Copilot vs Cursor - A Comparison
-Reference: [Copilot vs Cursor](https://www.builder.io/blog/cursor-vs-github-copilot)
+Reference: [Copilot vs Cursor (Feb 2025)](https://cosminnovac.medium.com/cursor-ai-vs-github-copilot-which-one-wins-45ba5828741f)
 
 ## Potential Conflicts between GitHub Copilot and Cursor
 While GitHub Copilot and Cursor are both powerful AI coding assistants, there might be potential conflicts between them. [Read more](https://www.perplexity.ai/search/some-potential-conflicts-when-ssryqVDgRuSTIqwEz2VhJA).
