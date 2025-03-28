@@ -7,6 +7,10 @@ This guide provides step-by-step instructions for setting up popular AI coding a
 
 AI coding assistants can significantly enhance your productivity and creativity. This guide will help you configure GitHub Copilot and Cursor using their free tiers. By the end, you'll be equipped to use these tools effectively for personal projects, schoolwork, or hackathons.
 
+***Bonus Resource***: Check out my AI 101 slides summarizing best practices for AI Coding Agents and prompt engineering, originally presented at a local high school hackathon: [View Slides](https://tinyurl.com/tuan-t-ai-code-demo).
+
+*Bonus*: I made a slide about AI 101 and summarize on Prompting Guides Coding Agent best practices for a recent workshop at a scraptyard hackathon for local highschool students. Can have a look [here](https://tinyurl.com/tuan-t-ai-code-demo)
+
 > ***Note:** This guide was last updated on March 14, 2025. Due to the rapid evolution of AI tools, some details may become outdated. Always refer to the official documentation for the latest updates and features. Additionally, consider exploring emerging AI tools as the landscape continues to evolve.*
 
 ## Table of Contents
