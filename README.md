@@ -1,25 +1,31 @@
 # AI Coding Assistants Setup Instructions
-Instructions on how to setup coding assistants (GitHub Copilot, Cursor and more) on different OS (Windows/macOS/Linux). The documentation is based on the official documentation, community resources and generative AI (with manual review and edits).
 
-Having powerful AI coding assistants at your disposal can significantly boost your productivity and creativity. This comprehensive guide will walk you through setting up two popular AI coding tools - GitHub Copilot and Cursor - using their free tiers. By the end of this guide, you'll be ready to leverage these tools to enhance your coding experience in school or personal projects, or during a hackathon.
+
+## Instructions for Setting Up AI Coding Assistants for Beginners
+
+This guide provides step-by-step instructions for setting up popular AI coding assistants like GitHub Copilot and Cursor on various operating systems (Windows, macOS, and Linux). The content is based on official documentation, community resources, and manual reviews of AI-generated content.
+
+AI coding assistants can significantly enhance your productivity and creativity. This guide will help you configure GitHub Copilot and Cursor using their free tiers. By the end, you'll be equipped to use these tools effectively for personal projects, schoolwork, or hackathons.
+
+> ***Note:** This guide was last updated on March 14, 2025. Due to the rapid evolution of AI tools, some details may become outdated. Always refer to the official documentation for the latest updates and features. Additionally, consider exploring emerging AI tools as the landscape continues to evolve.*
 
 ## Table of Contents
 - [GitHub Copilot on VS Code (Free Tier)](#github-copilot-on-vs-code-free-tier)
   - [Setup Visual Studio Code](#setup-visual-studio-code-vs-code)
   - [Enable Copilot Free in VS Code](#enable-copilot-free-in-vs-code)
   - [Configuring System Prompts](#configuring-system-prompts)
-    - [Setting Up System Prompts in GitHub Copilot](#setting-up-system-prompts-in-github-copilot)
 - [Setting Up Cursor (Free Account)](#setting-up-cursor-free-account)
-  - [Installation Process for Windows](#installation-process-for-windows)
-  - [Installation Process for macOS](#installation-process-for-macos)
-  - [Installation Process for Linux (Ubuntu)](#installation-process-for-linux-ubuntu)
+  - [Installation on Windows](#installation-on-windows)
+  - [Installation on macOS](#installation-on-macos)
+  - [Installation on Linux (Ubuntu)](#installation-on-linux-ubuntu)
   - [Setting Up Instructions (Rules) for Cursor](#setting-up-instructions-rules-for-cursor)
-- [Copilot vs Cursor - A comparison](#copilot-vs-cursor-a-comparison)
+- [Copilot vs Cursor - A comparison](#copilot-vs-cursor---a-comparison)
 - [Potential Conflicts between GitHub Copilot and Cursor](#potential-conflicts-between-github-copilot-and-cursor)
 - [Conclusion](#conclusion)
 - [Appendix: Alternative AI Coding Assistants](#appendix-alternative-ai-coding-assistants)
   - [Official Products](#official-products)
   - [Alternative Options for Self-Hosted AI Coding Assistants](#alternative-options-for-self-hosted-ai-coding-assistants)
+  - [Low-Code and No-Code AI Options](#low-code-and-no-code-ai-options)
 
 ## GitHub Copilot on VS Code (Free Tier)
 
@@ -117,7 +123,7 @@ Read more in the [Adding repository custom instructions for GitHub Copilot](http
 
 Cursor is an AI-enhanced code editor built on VS Code that offers powerful AI assistance. It provides a free tier with essential features that can be valuable during a hackathon.
 
-### Installation Process for Windows
+### Installation on Windows
 
 To install Cursor on Windows:
 
@@ -139,7 +145,7 @@ To install Cursor on Windows:
 
 8. After signing in, you can start using Cursor's basic AI features immediately.
 
-### Installation Process for macOS
+### Installation on macOS
 
 For macOS users:
 
@@ -157,7 +163,7 @@ For macOS users:
 
 7. Once signed in, you can begin using Cursor's AI coding features.
 
-### Installation Process for Linux (Ubuntu)
+### Installation on Linux (Ubuntu)
 
 For Linux users, particularly Ubuntu:
 
@@ -197,7 +203,24 @@ Source: [dev.to](https://dev.to/mesonu/how-to-install-cursor-ai-editor-on-linux-
 
 ### Setting Up Instructions (Rules) for Cursor
 
-Source: [Cursor Rules](https://docs.cursor.com/context/rules-for-ai)
+Read from the source: [Cursor Rules](https://docs.cursor.com/context/rules-for-ai)
+
+#### Cursor AI Rules Summary
+
+*   **Purpose:** Control AI behavior with instructions or system prompts.
+*   **Types:** Project Rules and Global Rules.
+
+##### Key Points
+
+*   **Project Rules:**
+    *   Stored in `.cursor/rules`.
+    *   Apply to specific parts of a project.
+    *   Use semantic descriptions and file pattern matching.
+*   **Global Rules:**
+    *   Set in `Cursor Settings`.
+    *   Apply to all projects (e.g., output language).
+*   **Deprecated:** `.cursorrules` files are for backward compatibility and will be removed.
+
 
 Setting up Rules for Cursor can be done both globally and on a project-specific basis:
 
@@ -224,13 +247,15 @@ Alternatively, Cursor is moving towards a new Project Rules system:
 It's worth noting that the `.cursorrules` file method is being phased out, so it's recommended to transition to the new Project Rules system for better flexibility and control.
 
 Both global and project-specific rules allow you to customize Cursor AI's behavior, including coding style preferences, best practices, and project-specific requirements. This customization helps ensure more accurate and consistent code generation tailored to your needs.
-- Read more: [Click here](https://cursor101.com/article/cursor-rules-customizing-ai-behavior)
-- And more: [Click here](https://github.com/PatrickJS/awesome-cursorrules)
-- Tips on development with Cursors (Helpful for Front-End & Fullstack): [![Tips Video](https://img.youtube.com/vi/uJimjSDio_Y/0.jpg)](https://youtu.be/uJimjSDio_Y?si=HNDydaG6Mk5OkDPW)
+- Read more from Cursor101: [Click here](https://cursor101.com/article/cursor-rules-customizing-ai-behavior)
+- And more awsome currsorrules across platforms, projects and languages: [Click here](https://github.com/PatrickJS/awesome-cursorrules)
+- Tips on development with Cursors (Helpful for Front-End & Fullstack): 
+[![Tips Video](https://img.youtube.com/vi/uJimjSDio_Y/0.jpg)](https://youtu.be/uJimjSDio_Y?si=HNDydaG6Mk5OkDPW)
 
 ## Prompting Guide
-- Read: [Click here](https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/prompt-engineering-for-copilot-chat)
-- Learn: [Click here](https://learn.microsoft.com/en-us/training/modules/introduction-prompt-engineering-with-github-copilot/)
+Learning effective prompt engineering can significantly improve your interactions with AI coding assistants. Here are some essential resources to help you master prompting techniques:
+- Read from the official GitHub Copilot documentation: [Click here](https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/prompt-engineering-for-copilot-chat)
+- Learn from Microsoft's training module: [Click here](https://learn.microsoft.com/en-us/training/modules/introduction-prompt-engineering-with-github-copilot/)
 
 ## Copilot vs Cursor - A Comparison
 - Reference: [Copilot vs Cursor (Feb 2025)](https://cosminnovac.medium.com/cursor-ai-vs-github-copilot-which-one-wins-45ba5828741f)
@@ -247,38 +272,58 @@ If you're interested in exploring more AI coding tools beyond GitHub Copilot and
 
 ### Official Products
 
-1. **Cody from SourceGraph** *(Has free tier with monthly limits)*
-Description: Cody is an AI coding assistant integrated with SourceGraph, offering features like chat-based code generation and extensive context awareness. It supports VS Code, JetBrains, and Visual Studio.
-Link: [SourceGraph Cody Documentation](https://sourcegraph.com/docs/cody)
+1. **Cody from SourceGraph**  
+   - **Description**: Cody is an AI coding assistant integrated with SourceGraph, offering features like chat-based code generation and extensive context awareness. It supports VS Code, JetBrains, and Visual Studio.  
+   - **Free Tier**: Yes, with monthly limits.  
+   - **Link**: [SourceGraph Cody Documentation](https://sourcegraph.com/docs/cody)
 
-2. **Windsurf AI from Codeium** *(Has free tier with some limitations)**
-Description: Windsurf is a free AI-powered IDE that offers rapid autocomplete suggestions and in-editor AI chat. It emphasizes user control and data security.
-Link: [Windsurf AI](https://codeium.com/windsurf)
+2. **Windsurf AI from Codeium**  
+   - **Description**: Windsurf is a free AI-powered IDE that offers rapid autocomplete suggestions and in-editor AI chat. It emphasizes user control and data security.  
+   - **Free Tier**: Yes, with some limitations.  
+   - **Link**: [Windsurf AI](https://codeium.com/windsurf)
 
-3. **Devin AI** *(Not Free)*
-Description: Devin AI is an autonomous coding assistant capable of generating and assisting with complex code. It combines advanced reasoning and planning capabilities.
-Link: [Devin AI](https://devin.ai/)
+3. **Devin AI**  
+   - **Description**: Devin AI is an autonomous coding assistant capable of generating and assisting with complex code. It combines advanced reasoning and planning capabilities.  
+   - **Free Tier**: No.  
+   - **Link**: [Devin AI](https://devin.ai/)
 
-4. **Bolt AI** *(Has free usage limits)*
-Description: Bolt AI is designed to make prototyping faster and easier. It supports AI code generation, manual editing, and deployment, with features like framework and package support.
-Link: [Bolt AI](https://bolt.new/)
+4. **Bolt AI**  
+   - **Description**: Bolt AI is designed to make prototyping faster and easier. It supports AI code generation, manual editing, and deployment, with features like framework and package support.  
+   - **Free Tier**: Yes, with usage limits.  
+   - **Link**: [Bolt AI](https://bolt.new/)
 
-5. **Claude Code** *(available as a limited research preview)*
-Description: Claude Code is an AI-powered coding tool developed by Anthropic. It operates directly in the terminal, assisting developers with tasks like refactoring, debugging, and documenting code.
-Link: [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview)
+5. **Claude Code**  
+   - **Description**: Claude Code is an AI-powered coding tool developed by Anthropic. It operates directly in the terminal, assisting developers with tasks like refactoring, debugging, and documenting code.  
+   - **Free Tier**: Available as a limited research preview.  
+   - **Link**: [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview)
 
 ### Alternative Options for Self-Hosted AI Coding Assistants
 
 If you're interested in exploring alternatives to GitHub Copilot and Cursor, here are some self-hosted AI coding assistant options:
 
-1. **Continue with Ollama**
-**Description**: Continue is a VS Code extension that allow integration with custom models, such as Ollama or LM Studio, allowing you to run AI models locally. It supports models like CodeQwen and CodeLlama for real-time code completion and chat-based debugging.
-**Links**: [Continue Documentation](https://www.continue.dev/), [Continue Overview](https://youtu.be/qXNecVIxRi0?si=7wRCI_aEQvIAe33q), [Ollama](https://ollama.com/), [Continue with Ollama](https://dev.to/manjushsh/configuring-ollama-and-continue-vs-code-extension-for-local-coding-assistant-48li)
+1. **Continue with Ollama**  
+   - **Description**: Continue is a VS Code extension that integrates with custom models or LLM provider tools, such as Ollama or LM Studio, allowing you to run AI models locally. It supports models like CodeQwen and CodeLlama for real-time code completion and chat-based debugging.  
+   - **Links**:  
+     - [Continue Documentation](https://www.continue.dev/)  
+     - [Continue Overview](https://youtu.be/qXNecVIxRi0?si=7wRCI_aEQvIAe33q)  
+     - [Ollama](https://ollama.com/)  
+     - [Continue with Ollama](https://dev.to/manjushsh/configuring-ollama-and-continue-vs-code-extension-for-local-coding-assistant-48li)
 
-2. **Continue with LM Studio**
-**Description**: LM Studio is a desktop application that enables running Large Language Models (LLMs) locally. It supports various models, including those optimized for coding tasks, and can be integrated with VS Code for AI assistance.
-**Link**: [LM Studio Overview](https://lmstudio.ai/), [Continue with LM Studio](https://chriskirby.net/run-a-free-ai-coding-assistant-locally-with-vs-code/) 
+2. **Continue with LM Studio**  
+   - **Description**: LM Studio is a desktop application that enables running Large Language Models (LLMs) locally. It supports various models, including those optimized for coding tasks, and can be integrated with VS Code for AI assistance.  
+   - **Links**:  
+     - [LM Studio Overview](https://lmstudio.ai/)  
+     - [Continue with LM Studio](https://chriskirby.net/run-a-free-ai-coding-assistant-locally-with-vs-code/)
 
-3. **TabbyML**
-**Description**: Tabby is an open-source, self-hosted AI coding assistant that supports major open-source LLMs like StarCoder and CodeLlama. It offers retrieval-augmented code completion and integrates well with VS Code.
-**Link**: [TabbyML GitHub](https://github.com/TabbyML/tabby)
+3. **TabbyML**  
+   - **Description**: Tabby is an open-source, self-hosted AI coding assistant that supports major open-source LLMs like StarCoder and CodeLlama. It offers retrieval-augmented code completion and integrates well with VS Code.  
+   - **Link**: [TabbyML GitHub](https://github.com/TabbyML/tabby)
+
+### Low-Code and No-Code AI Options
+
+Low-code and no-code platforms are becoming increasingly popular for creating AI-powered applications with minimal or no coding expertise. Tools like **Flowise AI**, **Vertex AI Agent Builder**, and **Zapier AI Agents** allow users to build AI agents quickly using visual interfaces and pre-built components. These platforms are ideal for rapid prototyping and making AI development accessible to non-technical users.
+
+* Sources:
+  - [Flowise AI](https://flowiseai.com)  
+  - [Vertex AI Agent Builder](https://cloud.google.com/products/agent-builder)  
+  - [Zapier AI Agents](https://zapier.com/agents)
